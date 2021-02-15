@@ -7,5 +7,9 @@
     "dev": "webpack --watch --mode development"
   },
   "author": "Whicencer",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "webpack": "^5.21.2",
+    "webpack-cli": "^4.5.0"
+  }
 }
