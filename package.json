@@ -1,0 +1,11 @@
+{
+  "name": "webcon",
+  "version": "1.0.0",
+  "description": "Website Constructor in JavaScript",
+  "private": true,
+  "scripts": {
+    "dev": "webpack --watch --mode development"
+  },
+  "author": "Whicencer",
+  "license": "ISC"
+}
