@@ -10,8 +10,20 @@ module.exports = {
   },
   plugins: [
     new HtmlWebpackPlugin({
-      template: './src/public/index.html'
+      template: './src/public/index.html',
+      inject: 'body'
     }),
     new CleanWebpackPlugin()
   ],
+  devServer: {
+    contentBase: './dist'
+  },
+  module: {
+    rules: [
+      {
+        test: /\.css/i,
+        use: ['style-loader', 'css-loader']
+      }
+    ]
+  }
 }

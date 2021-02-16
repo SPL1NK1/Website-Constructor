@@ -1,5 +1,6 @@
 import { site } from "./site";
 import { model } from './model';
+import '../style/style.css'
 
 const $site = document.querySelector('.site')
 const btns = document.querySelectorAll('#btn')
